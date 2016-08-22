@@ -1,10 +1,110 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
     <head>
-        <meta charset="UTF-8">
-        <title> </title>
+        <meta charset="utf-8">
+        <title>homework_layout</title>
+     <style type="text/css">
+        
+     </style>
     </head>
+    
     <body>
-
+      <header>
+          <nav>
+              <a href="#home">Home</a> |
+              <a href="#about">About</a> | 
+              <a href="#wares">Wares</a> |
+              <a href="#contacts">Contacts</a>
+          </nav>
+          <br>
+      </header>
+      
+      <main>
+          <section id="home">
+              <h1>HANDICRAFTS<br><span style="font-size:30px">of beads</span></h1>
+               <a href="#about"><img src="images/sacura.jpg" alt="sacura"  style=" height:550px;"> </a>
+               <br>
+          </section>
+          <section id="about">
+              <hr>
+              <h2>About</h2>
+              <p style="font-size:22px;text-align:center;width:575px;margin:auto">If you want to make a gift for a birthday or to greet, then a good option would be picture embroidered with beads.  The tree or flower woven of beads also will be a wonderful gift.
+          Art of manufacturing of beads reaches depths of ages. Making beaded decoration - one of the most mysterious and interesting kinds of folk art.
+          Man by nature seeks to beauty. Since ancient times people have decorated their homes, clothes and household items. Many beautiful things you can create with the beads.
+              </p>
+              <hr>
+          </section>
+          <section id="wares">
+              <h2>Our Wares </h2>
+              <br>
+              <article>
+                  <br>
+                  <h3>Trees:</h3>
+                  <br>
+                  <figure style="float:left">
+                      <a target="_blank" href="images/trees/tree2_1.png"><img src="images/trees/tree2_1.png" alt=""Tangerine-tree"" height="200"></a>
+                      <figcaption>"Tangerine-tree"</figcaption>
+                  </figure>
+                  <figure style="float:left">
+                      <a target="_blank" href="images/trees/tree2.jpg"><img src="images/trees/tree2.jpg" alt=""Oak-tree"" height="200"></a>
+                      <figcaption>"Oak-tree"</figcaption>
+                  </figure>
+                  <figure style="float:left">
+                      <a target="_blank" href="images/trees/tree1.jpg"><img src="images/trees/tree1.jpg" alt=""Bonsai-tree"" height="200"></a>
+                      <figcaption>"Bonsai-tree"</figcaption>
+                  </figure>
+                  <figure>
+                      <a target="_blank" href="images/trees/tree7.jpg"><img src="images/trees/tree7.jpg" alt=""Blooming peach-tree"" height="200"></a>
+                      <figcaption>"Blooming peach-tree"</figcaption>
+                  <h3>Pictures:</h3>
+                  <br>
+                  <figure style="float:left">
+                      <a target="_blank" href="images/pictures/picture1.jpg"><img src="images/pictures/picture1.jpg" alt="Picture - "Poppies"" height="200"></a>
+                      <figcaption>Picture - "Poppies"</figcaption>
+                  </figure>
+                  <figure>
+                      <a target="_blank" href="images/pictures/picture2.jpg"><img src="images/pictures/picture2.jpg" alt=""Poppies2"" height="200"></a>
+                      <figcaption>"Poppies2"</figcaption>
+                  </figure>
+              </article>
+          </section>
+          <section id="contacts">
+              <br>
+              <hr>
+              <h2>Contacts</h2>
+              <p>  Contact phone: <br>
+               +38 (068) ... <br>
+               +38 (063) ... <br>
+               +38 (095) ... <br>
+               e-mail: handicrafts@gmail <br>
+               address: Lviv </p>
+               <img src="images/map.jpg" alt="Map of Lviv" width="350">
+              <p> Fill out the form, and set your spares and our manager will contact you shortly.</p>
+              <form style="width:500px" method="POST" action="https://formspree.io/i.shyyka@ukr.net">
+                  <fieldset >
+                      <label for="name">Name:</label>
+                      <input type="text" name="name" placeholder="First Name" id="name" required/>
+                      <label for="name">Surname:</label>
+                      <input type="text" name="surname" placeholder="Surname" id="surname" required/>
+                      <br><br>
+                      <label for="email">Email:</label>
+                      <input type="email" name="email" placeholder="your_email@..." id="email" required/>
+                      <br><br>
+                      <label for="message">Message:</label>
+                      <input type="hidden" name="message">
+                      <textarea rows="3" cols="62" name="message"></textarea>
+                  </fieldset>
+                  <input type="submit" />
+              </form>
+          </section>
+      </main>
+      <br>
+      <hr>
+      <footer>
+          <div>
+              <p>&copy; 2016 Handicrafts of beads. All rights reserved.</p>
+          </div>
+          <br>
+      </footer>
     </body>
 </html>
