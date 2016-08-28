@@ -46,7 +46,7 @@ h2 {
 	width: 100%;
 	max-height:160px;
 	height: 100%;
-	top: 25px;
+	top: 28px;
 	left: 0;
 	
 	z-index: 1;
@@ -100,16 +100,16 @@ nav>li>a:hover {
 	width: 100%;
 
 	max-width: 700px;
-	top: 100px;
+	top: 112px;
 	left: 0;
 	right: 0;	
 	margin: 0 auto;
 	border-radius: 50%;
 /*	box-shadow: 0 -30px 20px 40px rgba(122,122,122,0.5);*/
-	box-shadow: 0px -25px 80px 10px wite;
+	box-shadow: 0px -25px 40px 2px #F075F5;
 }
 
-p {
+.topic {
     font-family: 'Dancing Script', cursive; 
 	font-size: 24px;
 	 line-height: 1.5;
