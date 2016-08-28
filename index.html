@@ -1,59 +1,134 @@
 <!doctype html>
-<html lang="en">
+<html lang="en-us">
     <head>
         <meta charset="utf-8">
-        <title>homework_layout</title>
-     <style type="text/css">
+        
+        <title>HANDICRAFTS of beads.</title>
+        <link rel="stylesheet" href="css/reset.css" />
+	    <link rel="stylesheet" href="css/style.css" />
+        <!--  <link rel="stylesheet" media="(min-width: 800px)" href="css/layout.css" />
+        <link rel="stylesheet" media="(min-width: 600px) and (max-width: 799px)" href="css/layout-md.css" />
+        <link rel="stylesheet" media="(max-width: 599px)" href="css/layout-sm.css" /> -->
         
      </style>
     </head>
     
     <body>
-      <header>
-          <nav>
-              <a href="#home">Home</a> |
-              <a href="#about">About</a> | 
-              <a href="#wares">Wares</a> |
-              <a href="#contacts">Contacts</a>
-          </nav>
-          <br>
-          <form action="index.html"> <!-- must be action page -->
-              Search:
-              <input type="search" name="search">
+	<header id="home">
+	        <div id="fon"></div>
+			<img id="img-l" src="css/img/sakura.png" alt="sakura">
+			<nav>
+			<li><a href="#home">Home</a> |</li>
+			<li><a href="#about">About</a> | </li>
+			<li><a href="#wares">Wares</a> |</li>
+			<li><a href="#contacts">Contacts</a></li>	
+			</nav>
+			<div id="search">
+			<hr>
+			<form action="index.html"> <!-- must be action page -->
+              <input type="search" name="search" placeholder="Find...">
               <input type="submit" value="Go">
-          </form>
-      </header>
-      
-      <main>
-          <section id="home">
-              <h1>HANDICRAFTS<br><span style="font-size:30px">of beads</span></h1>
-               <a href="#about"><img src="images/sacura.jpg" alt="sacura"  style=" height:550px;"> </a>
-               <br>
-          </section>
-          <section id="about">
-              <hr>
+			</form>
+			</div>
+			<h1 id="title">HANDICRAFTS<br><span style="font-size:20px">of beads</span></h1>
+			<img id="img_b" src="images/sacura.jpg" alt="sacura">					
+	</header>
+	<section id="about">
+	          <br>
               <h2>About</h2>
+              <br>
+			  <hr>
               <p>If you want to make a gift for a birthday or to greet, then a good option would be picture embroidered with beads.  The tree or flower woven of beads also will be a wonderful gift.
               Art of manufacturing of beads reaches depths of ages. Making beaded decoration - one of the most mysterious and interesting kinds of folk art.
               Man by nature seeks to beauty. Since ancient times people have decorated their homes, clothes and household items. Many beautiful things you can create with the beads.
-              </p>
+			  </p>
               <hr>
-          </section>
-          <section id="wares">
-              <h2>Our Wares </h2>
-              <article>
-                  <br>
+    </section>
+	<section id="wares">
+	    <br>
+	    <h2>Our Wares </h2>
+			  <hr>
+	    <h2>Trees</h2>
+	    <div class="responsive">
+	        <div class="img">
+	            <a target="_blank" href="images/trees/tree1.jpg"">
+	                <img src="images/trees/tree1.jpg"" alt="Bonsai-tree" width="300" height="200">
+                </a>
+            <div class="desc">"Bonsai-tree"</div>
+             </div>
+        </div>
+        <div class="responsive">
+              <div class="img">
+                <a target="_blank" href="images/trees/tree3.jpg">
+                     <img src="images/trees/tree3.jpg" alt="Bonsai-tree" width="600" height="400">
+                 </a>
+              <div class="desc">"Oak-tree"</div>
+              </div>
+        </div>
+        <div class="responsive">
+              <div class="img">
+                <a target="_blank" href="images/trees/tree3.jpg">
+                     <img src="images/trees/tree3.jpg" alt="Oak-tree" width="600" height="400">
+                 </a>
+              <div class="desc">"Oak-tree"</div>
+              </div>
+        </div>
+        <div class="responsive">
+              <div class="img">
+                <a target="_blank" href="images/trees/tree3.jpg">
+                     <img src="images/trees/tree3.jpg" alt="Oak-tree" width="600" height="400">
+                 </a>
+              <div class="desc">"Oak-tree"</div>
+              </div>
+        </div>
+        <div class="clearfix"></div>
+         <div class="responsive">
+              <div class="img">
+                <a target="_blank" href="images/trees/tree2_1.png.jpg">
+                     <img src="images/trees/tree2_1.png" alt="Oak-tree" width="300" height="200">
+                 </a>
+              <div class="desc">"Oak-tree"</div>
+              </div>
+        </div>
+        <div class="responsive">
+              <div class="img">
+                <a target="_blank" href="images/trees/tree2_1.png.jpg">
+                     <img src="images/trees/tree2_1.png" alt="Oak-tree" width="600" height="400">
+                 </a>
+              <div class="desc">"Oak-tree"</div>
+              </div>
+        </div>
+        <div class="responsive">
+              <div class="img">
+                <a target="_blank" href="images/trees/tree2_1.png.jpg">
+                     <img src="images/trees/tree2_1.png" alt="Oak-tree" width="600" height="400">
+                 </a>
+              <div class="desc">"Oak-tree"</div>
+              </div>
+        </div>
+        <div class="responsive">
+              <div class="img">
+                <a target="_blank" href="images/trees/tree2_1.png.jpg">
+                     <img src="images/trees/tree2_1.png" alt="Oak-tree" width="600" height="400">
+                 </a>
+              <div class="desc">"Oak-tree"</div>
+              </div>
+        </div>
+        <div class="clearfix"></div>
+
+<div style="padding:6px;">
+
+	    <!--
+              
+              <article>                  		  
                   <h3>Trees:</h3>
                   <br>
-                  <figure style="float:left">
-                      <a target="_blank" href="images/trees/tree1.jpg"><img src="images/trees/tree1.jpg" alt="Bonsai-tree" height="200"></a>
-                      <figcaption>"Bonsai-tree"</figcaption>
-                  </figure>
-                  <figure style="float:left">
+                  
+                  <figure>
                       <a target="_blank" href="images/trees/tree2.jpg"><img src="images/trees/tree2.jpg" alt="Oak-tree" height="200"></a>
                       <figcaption>"Oak-tree"</figcaption>
                   </figure>
-                  <figure style="float:left">
+                  <figure>
                       <a target="_blank" href="images/trees/tree2_1.png"><img src="images/trees/tree2_1.png" alt="Tangerine-tree" height="200"></a>
                       <figcaption>"Tangerine-tree"</figcaption>
                   </figure>
@@ -61,32 +136,40 @@
                       <a target="_blank" href="images/trees/tree7.jpg"><img src="images/trees/tree7.jpg" alt="Blooming peach-tree" height="200"></a>
                       <figcaption>"Blooming peach-tree"</figcaption>
                   </figure>    
-                      <br>
+              </article>
+             
+             
+			  <article> 
                   <h3>Pictures:</h3>
                   <br>
-                  <figure style="float:left">
-                      <a target="_blank" href="images/pictures/picture1.jpg"><img src="images/pictures/picture1.jpg" alt="Picture - 'Poppies'" height="200"></a>
+                  <figure>
+                      <a target="_blank" href="images/pictures/picture1.jpg"><img src="images/pictures/picture1.jpg" alt="Picture - Poppies" height="200"></a>
                       <figcaption>Picture - "Poppies"</figcaption>
                   </figure>
                   <figure>
-                      <a target="_blank" href="images/pictures/picture2.jpg"><img src="images/pictures/picture2.jpg" alt="'Poppies2'" height="200"></a>
+                      <a target="_blank" href="images/pictures/picture2.jpg"><img src="images/pictures/picture2.jpg" alt="Poppies2" height="200"></a>
                       <figcaption>"Poppies2"</figcaption>
                   </figure>
               </article>
-          </section>
-          <section id="contacts">
-              <br>
-              <hr>
+              -->
+    </section>
+	<div class="clearfix"></div>
+	<br>
+	<section id="contacts">
+		       
               <h2>Contacts</h2>
+			  <hr>
               <p>  Contact phone: <br>
                +38 (068) ... <br>
                +38 (063) ... <br>
                +38 (095) ... <br>
                e-mail: handicrafts@gmail.comm <br>
                address: Lviv </p>
+			   
                <img src="images/map.jpg" alt="Map of Lviv" width="350">
               <p> Fill out the form and our manager will contact you shortly.</p>
-              <form style="width:500px" method="POST" action="https://formspree.io/i.shyyka@ukr.net">
+			 
+              <form style="max-width:500px; width=100%" method="POST" action="https://formspree.io/i.shyyka@ukr.net">
                   <fieldset >
                       <label for="name">Name:</label>
                       <input type="text" name="name" placeholder="First Name" id="name" required/>
@@ -97,20 +180,33 @@
                       <input type="email" name="email" placeholder="your_email@..." id="email" required/>
                       <br><br>
                       <input type="hidden" name="message">
-                      <textarea rows="3" cols="62" name="message"></textarea>
+                      <textarea rows="3" cols="60" name="message"></textarea>
                   </fieldset>
                   <br>
                   <input type="submit" value="Send" />
               </form>
+			  
           </section>
-      </main>
       <br>
       <hr>
       <footer>
-          <div>
-              <p>&copy; 2016 Handicrafts of beads. All rights reserved.</p>
-          </div>
-          <br>
+            <p>&copy; 2016 Handicrafts of beads. All rights reserved.</p>
+            <br>
       </footer>
+	  
+	  <!-- Dropdown menu -->
+	  
+	   <div class="dropdown">
+          <button class="dropbtn">MENU |||</button>
+              <div class="dropdown-content">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#wares">Wares</a>
+                <a href="#contacts">Contacts</a>
+              </div>
+        </div>
+	   
+      
+    
     </body>
 </html>

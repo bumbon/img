@@ -1,0 +1,36 @@
+body {
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+header {
+    width: 100%;
+    max-width: 1024px;
+    min-width: 500px;
+    height: 150px;
+    margin: 0 auto;
+}
+section {
+    width: 100%;
+    max-width: 1024px;
+    min-width: 500px;
+}
+nav {
+    display: inline-block;
+    position: fixed;
+    left: 10px;
+    top: 10px;
+    width: 100px;
+    height: 450px;
+    background: linear-gradient(black, white);
+}
+article {
+    height: 450px;
+}
+footer {
+    width: 100%;
+    max-width: 1200px;
+    min-width: 500px;
+    height: 100px;
+    margin: 0 auto;
+}
