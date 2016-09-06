@@ -64,9 +64,9 @@ section {
 footer{
 	height: 100px;
 	color: #000;
-		margin: 0 auto;
+	margin: auto auto 0;
     font-size: 1.3em;
-    padding-left: 10px;
+    padding: 10px 10px;
 	text-align: left;
     background: linear-gradient(white, #ffeffc);
 	box-shadow:0px 0px 10px gray;
