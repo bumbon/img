@@ -27,11 +27,9 @@ nav {
 
 
 #title {
-    padding-top: 15px;
+    padding-top: 10px;
 	padding-bottom: 1%;
-    font-size: 25px;
+    font-size: 2em;
 
 }
-#show {
-	display: block;
-}
+
