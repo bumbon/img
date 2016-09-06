@@ -1,15 +1,45 @@
 body {
+	
+	font-family: 'Princess Sofia', cursive;
     width: 100%;
-	margin: 0 auto;	
-    background-image: url(images/fon.jpg);
+	margin: 0 0;	
+    background-image: url('../images/fon1.jpg');
+    background-attachment:fixed;
+  	background-position: top; 
+    background-repeat: no-repeat;
+    background-size: 100%;
 	text-align: center;
+	top:0;
     }
-h2 {
-    font-size: 28px;
+h2, h3  {
+	padding: 5px 5px;
+	background: linear-gradient(#fcccfc, white);
+	box-shadow:0px 0px 8px #fcccfc;
+color: #fff;
+font-size: 3em;
+font-weight: bold;
+/*font-family: Helvetica;*/
+text-shadow: 0 1px 0 #ccc, 
+0 2px 0 #cfcfcf,
+0 3px 0 #bbb,
+0 4px 0 #fcccfc, 
+0 5px 0 #aaa,
+0 6px 1px rgba(0,0,0,.1),
+0 0 5px rgba(0,0,0,.1),
+0 1px 3px rgba(0,0,0,.3),
+0 3px 5px rgba(0,0,0,.2),
+0 5px 10px #fcccfc,
+0 10px 10px rgba(0,0,0,.2),
+0 20px 20px rgba(0,0,0,.15);
+text-align: center;
 }
 h3 {
-	font-size: 25px;
 	text-align: left;
+    font-size: 2em;
+	font-weight: bold;
+	margin: 10px 10px;
+	background: none;
+	box-shadow: none;
 }
 header {
 	width: 100%;
@@ -18,6 +48,7 @@ header {
 	margin: 0 auto;	
 	display: block;
 	position: relative;
+	
 }
 section {
 	position: relative;
@@ -26,12 +57,21 @@ section {
 	width: 100%;
 	height: 100vh;
 	margin: 0 auto;
+	background: linear-gradient(#ffeffc, white);
+	opacity: 0.8;
 	
 }
 footer{
+	height: 100px;
+	color: #000;
+		margin: 0 auto;
+    font-size: 1.3em;
+    padding-left: 10px;
 	text-align: left;
-	font-size: 10px;
+    background: linear-gradient(white, #ffeffc);
+	box-shadow:0px 0px 10px gray;
 }
+
 article{
     display: inline-block;
     position: relative;
@@ -46,12 +86,14 @@ article{
 	position: absolute;
     display: block;
     margin: 0 auto;
+    opacity: 0.5;
 	width: 100%;
     max-height: 200px;
 	height: 100%;
 	top: 0;
-	background: linear-gradient(#F575F5, white);
+	background: linear-gradient(#F272F2, white);
 	z-index: -3;
+  
 }
 #img-l {
 	display: block;
@@ -64,52 +106,12 @@ article{
 	left: 0;
 	z-index: 1;
 }
-nav {
-	display: block;
-	position: absolute;
-	width: 350px;
-	height: 20px;
-	top: 10px;
-	right: 10px;
-	list-style-type: none;
-	
 
-	/*padding-bottom: 3px;*/
-	/*border-bottom: 1px solid #000;*/
-}
-nav>li {
-	display: inline-block;
-	text-align: justify;
-}
-nav>li a {
-    color: #fff;
-    font-size: 18px;
-    padding: 4px 3px;
-    text-decoration: none;
-    text-shadow: 0 1px 0 #ccc,
-    0 1px 0 #c9c9c9,
-    0 2px 0 #bbb, 
-    0 3px 0 #b9b9b9, 
-    /*0 5px 0 #aaa, */
-    /*0 6px 1px rgba(0,0,0,.1), */
-    /*0 0 5px rgba(0,0,0,.1),*/
-    /*0 1px 3px rgba(0,0,0,.3); */
-    /*0 3px 5px rgba(0,0,0,.2), */
-    0 5px 10px rgba(0,0,0,.0);
-/*    0 10px 10px rgba(0,0,0,.2), */
-/*    0 20px 20px rgba(0,0,0,.15);*/
-/*text-align: center;*/
-	/*background-color: #fdf;*/
-
-}
-nav>li>a:hover {
-    box-shadow: 0 0 2px 1px #fff;
-}
 #search {
 	position: absolute;
 	width: 278px;
 	height: 20px;
-	top: 35px;
+	top: 65px;
 	right: 10px;
 	padding-top: 10px;
 	text-align: right;
@@ -117,17 +119,18 @@ nav>li>a:hover {
 #title {
 	width: 100%;
 	margin: 0 auto;	
-	padding-top: 4%;
+	padding-top: 70px;
 	padding-bottom: 1%;
-	font-family: 'Dancing Script', cursive;
-	font-size: 45px;
+	letter-spacing: 10px;
+
 	text-align: center;
-color: #fff;
-font-size: 4em;
-font-weight: bold;
+	color: #fff;
+
+	font-size: 4em;
+	font-weight: bold;
 /*font-family: Helvetica;*/
-text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
-text-align: center;
+	text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
+	text-align: center;
 	/*text-shadow: 2px 2px 5px #F075F5;*/
 	z-index: 1;	
 }
@@ -145,72 +148,236 @@ text-align: center;
 	border-radius: 50%;
     box-shadow: 0px -25px 40px 2px #F4A6F9;
 	z-index: -2;
+   	opacity: 0.9;
 }
 .topic {
     /*font-family: 'Dancing Script', cursive; */
 	font-size: 24px;
 	line-height: 1.6;
 	height: 80%;
+	text-shadow: 0 1px 0 #ccc;
+	
  }
 figure {	
 	position: absolute;
 }
 
 hr {
+	
 	text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
-text-align: center;
+    text-align: center;
 }
 
 
+/*menu*/
+
+*,
+*:after,
+*::before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+nav {
+	display: block;
+	position: absolute;
+	max-width: 480px;
+	height: 20px;
+	top: 10px;
+	right: 10px;
+	list-style-type: none;
+	text-align: right;
+	width: 100%;
+	height: 100%;
+    /*border: 2px solid #000;*/
+}
+nav a {
+	
+	position: relative;
+	display: inline-block;
+	margin: 5px 5px;
+	outline: none;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+    font-family: 'Dancing Script', cursive; 
+	font-weight: 400;
+	text-shadow: 0 1px 0 #c9c9c9,
+    0 2px 0 #bbb, 
+    0 1px 0 #c9c9c9;
+	font-size: 1.1em;
+	
+}
+
+nav a:hover,
+nav a:focus {
+	/*color: #eee;*/
+	text-shadow: 0 1px 0 #ccc,
+    0 1px 0 #c9c9c9,
+    0 2px 0 #bbb, 
+ 
+    0 1px 3px rgba(0,0,0,.3), 
+    0 3px 5px rgba(0,0,0,.2), 
+    0 5px 4px rgba(0,0,0,.0),
+    0 10px 10px rgba(0,0,0,.2), 
+    0 20px 20px rgba(0,0,0,.15);
+	outline: none;
+	
+}
+
+
+/* Effect: border switch */
+.effect-bs a {
+	padding: 0 15px;
+	height: 24px;
+	line-height: 24px;
+}
+
+.effect-bs a::before,
+.effect-bs a::after {
+	position: absolute;
+	width: 22px;
+	height: 1.5px;
+	background: #fff;
+	content: '';
+	opacity: 0.2;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	transition: all 0.5s;
+	pointer-events: none;
+}
+
+.effect-bs a::before {
+	top: 0;
+	left: 0;
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	transform: rotate(90deg);
+	-webkit-transform-origin: 0 0;
+	-moz-transform-origin: 0 0;
+	transform-origin: 0 0;
+}
+
+.effect-bs a::after {
+	right: 0;
+	bottom: 0;
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	transform: rotate(90deg);
+	-webkit-transform-origin: 100% 0;
+	-moz-transform-origin: 100% 0;
+	transform-origin: 100% 0;
+}
+
+.effect-bs a:hover::before,
+.effect-bs a:hover::after,
+.effect-bs a:focus::before,
+.effect-bs a:focus::after {
+	opacity: 1;
+}
+
+.effect-bs a:hover::before,
+.effect-bs a:focus::before {
+	left: 50%;
+	-webkit-transform: rotate(0deg) translateX(-50%);
+	-moz-transform: rotate(0deg) translateX(-50%);
+	transform: rotate(0deg) translateX(-50%);
+}
+
+.effect-bs a:hover::after,
+.effect-bs a:focus::after {
+	right: 50%;
+	-webkit-transform: rotate(0deg) translateX(50%);
+	-moz-transform: rotate(0deg) translateX(50%);
+	transform: rotate(0deg) translateX(50%);
+}
+
+
+
+
 /*-- Dropdawn menu--*/
+	#dropdown.default {
+    display: none;
+}
+
 .dropbtn {
     background-color: #FF75F5;
+    font-family: 'Dancing Script', cursive;
+    
+    font-weight: bold;
     color: white;
     padding: 8px;
     font-size: 18px;
     border: none;
     cursor: pointer;
-    border-radius: 0 10px 0px 0;
+    border-radius: 10px 0px 0px 0px;
+    transition: all 0.5s;
+    opacity: 0.3;
 }
 
-.dropdown {
+#dropdown.fixed {
     position: fixed;
     display: inline-block;
-    top:300px;
-    left:0px;
+    top:5%;
+    right:-62px;
+    
+    opacity: 0.9;
 }
 
 .dropdown-content {
+	opacity: 0.9;
     display: none;
     position: absolute;
     background-color: #F075F5;
-    border-radius: 0 10px 0px 0;
+    border-radius: 10px 0px 0px 0px;
     min-width: 100px;
     box-shadow: 0px 8px 12px 0px rgba(0,0,0,0.2);
 }
 
 .dropdown-content a {
+	opacity: 0.9;
     color: #FFF;
-    padding: 4px 6px;
+    padding: 10px 10px;
     text-decoration: none;
     display: block;
     text-align: left;
 }
 
-.dropdown-content a:hover {background-color: #Ff05F5;border-radius: 0 10px 0px 0;text-align: center; }
-
-.dropdown:hover .dropdown-content {
-    display: block;
+.dropdown-content a:hover {
+	opacity: 0.9;
+	font-family: 'Dancing Script', cursive; 
+	background-color: #Ff05F5;border-radius: 10px 0px 0px 10px;text-align: center; 
+	transition: all 0.5s;
 }
 
-.dropdown:hover .dropbtn {
+#dropdown.fixed:hover .dropdown-content {
+    display: block;
+    position: relative;
+    transition: all 0.5s;
+    right: 60px;
+    opacity: 0.9;font-family: 'Dancing Script', cursive; 
     
+}
+
+#dropdown.fixed:hover .dropbtn {
+	position: relative;
+    right: 55px;
+    transition: all 0.5s;
     background-color: #F005F5;
+    opacity: 0.9;
+    
 }
 
                            /* Responsive galery*/
 div.img {
-    border: 0px solid #ccc;
+    
+    box-shadow:0px 0px 20px gray;
+    font-size: 20px;
+	line-height: 1.6;
+	height: 80%;
+	margin: 2px 2px;
 }
 
 div.img:hover {
@@ -223,7 +390,7 @@ div.img img {
 }
 
 div.desc {
-    padding: 15px;
+    padding: 10px;
     text-align: center;
 }
 
@@ -257,7 +424,13 @@ div.desc {
     clear: both;
 }
 #contacts {
+	display: inline-block;
+	position: relative;
     text-align: left;
+    color: #555;
+    font-size: 1.3em;
+    padding: 10px 10px;
+
 }
 
 /* Galery */
@@ -268,7 +441,7 @@ div.desc {
 -webkit-transition-duration: 0.5s; /*Webkit: длительность анимации*/
 -moz-transition-duration: 0.5s; /*Mozilla: длительность анимации*/
 -o-transition-duration: 0.5s; /*Opera: длительность анимации*/
-opacity: 0.8; /*Начальная прозрачность изображений*/
+opacity: 1.0; /*Начальная прозрачность изображений*/
 margin: 0 10px 5px 0; /*Интервалы между изображениями*/
 }
 
@@ -281,3 +454,13 @@ box-shadow:0px 0px 30px gray; /*CSS3 тени: 30px размытая тень в
 -moz-box-shadow:0px 0px 30px gray; /*Mozilla: тени*/
 opacity: 1;
 }
+
+#hide {
+	display: none;
+}
+
+#show {
+	display: block;
+}
+
+

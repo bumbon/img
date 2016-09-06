@@ -1,0 +1,123 @@
+*,
+*:after,
+*::before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+nav {
+	display: block;
+	position: absolute;
+	max-width: 480px;
+	height: 20px;
+	top: 10px;
+	right: 10px;
+	list-style-type: none;
+	text-align: right;
+	width: 100%;
+	height: 100%;
+    /*border: 2px solid #000;*/
+}
+nav a {
+	
+	position: relative;
+	display: inline-block;
+	margin: 5px 5px;
+	outline: none;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	text-shadow: 0 1px 0 #c9c9c9,
+    0 2px 0 #bbb, 
+    0 1px 0 #c9c9c9;
+	font-size: 1.1em;
+	
+}
+
+nav a:hover,
+nav a:focus {
+	/*color: #eee;*/
+	text-shadow: 0 1px 0 #ccc,
+    0 1px 0 #c9c9c9,
+    0 2px 0 #bbb, 
+ 
+    0 1px 3px rgba(0,0,0,.3), 
+    0 3px 5px rgba(0,0,0,.2), 
+    0 5px 4px rgba(0,0,0,.0),
+    0 10px 10px rgba(0,0,0,.2), 
+    0 20px 20px rgba(0,0,0,.15);
+	outline: none;
+	
+}
+
+
+/* Effect: border switch */
+.effect-bs a {
+	padding: 0 15px;
+	height: 24px;
+	line-height: 24px;
+}
+
+.effect-bs a::before,
+.effect-bs a::after {
+	position: absolute;
+	width: 22px;
+	height: 1.5px;
+	background: #fff;
+	content: '';
+	opacity: 0.2;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	transition: all 0.5s;
+	pointer-events: none;
+}
+
+.effect-bs a::before {
+	top: 0;
+	left: 0;
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	transform: rotate(90deg);
+	-webkit-transform-origin: 0 0;
+	-moz-transform-origin: 0 0;
+	transform-origin: 0 0;
+}
+
+.effect-bs a::after {
+	right: 0;
+	bottom: 0;
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	transform: rotate(90deg);
+	-webkit-transform-origin: 100% 0;
+	-moz-transform-origin: 100% 0;
+	transform-origin: 100% 0;
+}
+
+.effect-bs a:hover::before,
+.effect-bs a:hover::after,
+.effect-bs a:focus::before,
+.effect-bs a:focus::after {
+	opacity: 1;
+}
+
+.effect-bs a:hover::before,
+.effect-bs a:focus::before {
+	left: 50%;
+	-webkit-transform: rotate(0deg) translateX(-50%);
+	-moz-transform: rotate(0deg) translateX(-50%);
+	transform: rotate(0deg) translateX(-50%);
+}
+
+.effect-bs a:hover::after,
+.effect-bs a:focus::after {
+	right: 50%;
+	-webkit-transform: rotate(0deg) translateX(50%);
+	-moz-transform: rotate(0deg) translateX(50%);
+	transform: rotate(0deg) translateX(50%);
+}
+
