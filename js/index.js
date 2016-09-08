@@ -49,5 +49,27 @@ $(document).ready(function(){
          $("#show-f").click(function(){
          $("div.collaps-f").show(1000);
          });
+         
+        $(function() {
+          $('#btn-send').click(senForm);
+          });
+
+        function senForm(e) {
+            e.preventDefault(); //
+            $.ajax({
+                url: "https://formspree.io/i.shyyka@ukr.net",
+                method: "POST",
+                data: {
+                    
+                    email: $('#email').val(),
+                    message: $('#msg').val(),
+                    name: $('#name').val()
+                },
+                dataType: "json",
+                success: function () {
+                    $('#thanks').html('Thank you for contact');
+                }
+            });
+        }
         
     });
