@@ -23,13 +23,14 @@ nav {
 #search {
 	top: 165px;
 }
-
-
-
 #title {
-    padding-top: 10px;
+    padding-top: 27px;
 	padding-bottom: 1%;
-    font-size: 2em;
-
+    font-size: 2.9em;
 }
-
+.topic {
+  font-size: 24px;
+}
+ .img-ab  {
+    max-width: 200px;
+ }
