@@ -1,30 +1,40 @@
 body {
     height: 100%;
-	margin: 0 0;	
-    background-image: url('../images/fon1.jpg');
-    background-attachment:fixed;
-  	background-position: top; 
-    background-repeat: no-repeat;
-    background-size: 100%;
-	text-align: center;
-	top:0;
+	/*margin: 0 0;	*/
+ /*   background-image: url('../images/fon1.jpg');*/
+ /*   background-attachment:fixed;*/
+ /* 	background-position: top; */
+ /*   background-repeat: no-repeat;*/
+ /*   background-size: 100%;*/
+	/*text-align: center;*/
+	/*top:0;*/
     }
+header {
+    height: 220px;
+}
 nav {
-  display: none;
+	height: 20px;
+	top: 7px;
+	right: 0px;
+	list-style-type: none;
+	text-align: left;
+	width: 100%;
+	font-size: 14px;
+    /*border: 2px solid #000;*/
 }
 
 #img_b {
 	display:  none;
 }
 #img-l {
-	top: 75px;
+	top: 145px;
 
 }
 #search {
-	top: 165px;
+	top: 265px;
 }
 #title {
-    padding-top: 27px;
+    padding-top: 67px;
 	padding-bottom: 1%;
     font-size: 2.9em;
 }

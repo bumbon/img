@@ -8,11 +8,7 @@ $(document).ready(function(){
                 $dropdown.removeClass("fixed").addClass("default");
             }
         });//scroll
-        
-        
-        
         //плавний скрол меню
-        
         $("#menu").on("click","a", function (event) {
         //отменяем стандартную обработку нажатия по ссылке
         event.preventDefault();
@@ -51,10 +47,10 @@ $(document).ready(function(){
          });
          
         $(function() {
-          $('#btn-send').click(senForm);
+          $('#btn-send').click(sendForm);
           });
 
-        function senForm(e) {
+        function sendForm(e) {
             e.preventDefault(); //
             $.ajax({
                 url: "https://formspree.io/i.shyyka@ukr.net",
