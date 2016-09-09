@@ -49,7 +49,7 @@ $(document).ready(function(){
         $(function() {
           $('#btn-send').click(sendForm);
           });
-
+     // ajaxs
         function sendForm(e) {
             e.preventDefault(); //
             $.ajax({
@@ -67,5 +67,40 @@ $(document).ready(function(){
                 }
             });
         }
+        // jquery lightbox
+         $("#gallery a").lightbox();
+        $.Lightbox.construct({
+            "speed": 500,
+            "show_linkback": true,
+            "keys": {
+                close:	"q",
+                prev:	"z",
+                next:	"x"
+            },
+            "opacity": 0.8,
+            text: {
+                image:		"Картинка",
+                of:			"из",
+                close:		"Закрыть ",
+                closeInfo:	"Завершить просмотр можно, кликнув мышью вне картинки.",
+                help: {
+                    close:		"",
+                    interact:	"Интерактивная подсказка"
+                },
+                about: {
+                    text: 	"",
+                    title:	"",
+                    link:	"/index.html"
+                }
+            },
+            files: {
+                images: {
+                    prev:		"/demo/img/jquery-lightbox/prev.gif",
+                    next:		"/demo/img/jquery-lightbox/next.gif",
+                    blank:		"/demo/img/jquery-lightbox/blank.gif",
+                    loading:	"/demo/img/jquery-lightbox/loading.gif"
+                }
+            }
+        });
         
     });

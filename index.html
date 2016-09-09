@@ -4,7 +4,9 @@
         <meta charset="utf-8">
         <title>HANDICRAFTS of beads.</title>
         <link rel="stylesheet" href="css/reset.css"/>
+        <link href="css/jquery-lightbox.css" type="text/css" rel="stylesheet" />
         <link rel="stylesheet" href="css/layout.css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" media="(max-width: 1000px)" href="css/layout-md.css"/>
         <link rel="stylesheet" media="(max-width: 599px)" href="css/layout-sm.css"/>
         <link href="https://fonts.googleapis.com/css?family=Princess+Sofia" rel="stylesheet">
@@ -74,9 +76,9 @@
             
             <div class="hovergallery">
                 <div class="responsive">
-                    <div class="img">
+                    <div id="gallery" class="img">
                         <div class="desc">"Bonsai-tree"</div>
-                        <a target="_blank" href="images/trees/bonsai-7.jpg">
+                        <a rel="lightbox-tour" href="images/trees/bonsai-7.jpg">
                             <img src="images/trees/bonsai-7.jpg" alt="Bonsai-tree" width="300" height="200">
                         </a>
                     </div>
@@ -311,5 +313,10 @@
         <script src="//code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
         <script type="text/javascript" src="js/index-sm.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript" src="js/jquery.lightbox-0.5.js"></script>
+        <script type="text/javascript" src="scripts/jquery-1.4.2.min.js"></script>
+    <script type="text/javascript" src="scripts/jquery.lightbox.js"></script>
+        
+        <script type="text/javascript" src="/js/jquery-lightbox.js"></script>
     </body>
 </html>
