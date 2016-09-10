@@ -1,6 +1,4 @@
-/*body {*/
-/*    height: 100%;*/
-/*    }*/
+
 header {
     height: 300px;
 }
@@ -16,7 +14,6 @@ nav {
 }
 nav a {
     margin: 3px 3px;
-    
 }
 /* Effect: border switch */
 .effect-bs a {
@@ -30,7 +27,7 @@ nav a {
 
 }
 #search {
-	top: 285px;
+	top: 280px;
 }
 #title {
     padding-top: 67px;
