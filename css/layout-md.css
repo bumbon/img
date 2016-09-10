@@ -9,7 +9,12 @@ header {
 .img-ab  {
     max-width: 280px;
  }
-
+#img_b {
+	position: absolute;
+	width: 54%;
+	max-width: 380px;
+	min-width: 340px;
+}
 #img-l {
 	top: 75px;
 
