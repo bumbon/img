@@ -1,5 +1,5 @@
 header {
-    height: 620px;
+    height: 460px;
 }
 #title {
 	padding-top: 50px;
@@ -17,78 +17,3 @@ header {
 #search {
 	top: 165px;
 }
-/*@media only screen and (max-width: 700px){*/
-    
-    /*-- Dropdawn menu--*/
-/*	#dropdown-sm.default {*/
-/*    display: none;*/
-/*}*/
-
-/*.dropbtn {*/
-/*    background-color: #FF75F5;*/
-/*    font-family: 'Dancing Script', cursive;*/
-    
-/*    font-weight: bold;*/
-/*    color: white;*/
-/*    padding: 8px;*/
-/*    font-size: 18px;*/
-/*    border: none;*/
-/*    cursor: pointer;*/
-/*    border-radius: 10px 0px 0px 0px;*/
-/*    transition: all 0.5s;*/
-/*    opacity: 0.3;*/
-/*}*/
-
-/*#dropdown-sm.fixed {*/
-/*    position: fixed;*/
-/*    display: inline-block;*/
-/*    top:5%;*/
-/*    right:-62px;*/
-    
-/*    opacity: 0.9;*/
-/*}*/
-
-/*.dropdown-sm-content {*/
-/*	opacity: 0.9;*/
-/*    display: none;*/
-/*    position: absolute;*/
-/*    background-color: #F075F5;*/
-/*    border-radius: 10px 0px 0px 0px;*/
-/*    min-width: 100px;*/
-/*    box-shadow: 0px 8px 12px 0px rgba(0,0,0,0.2);*/
-/*}*/
-
-/*.dropdown-sm-content a {*/
-/*	opacity: 0.9;*/
-/*    color: #FFF;*/
-/*    padding: 10px 10px;*/
-/*    text-decoration: none;*/
-/*    display: block;*/
-/*    text-align: left;*/
-/*}*/
-
-/*.dropdown-sm-content a:hover {*/
-/*	opacity: 0.9;*/
-/*	font-family: 'Dancing Script', cursive; */
-/*	background-color: #Ff05F5;border-radius: 10px 0px 0px 10px;text-align: center; */
-/*	transition: all 0.5s;*/
-/*}*/
-
-/*#dropdown-sm.fixed:hover .dropdown-sm-content {*/
-/*    display: block;*/
-/*    position: relative;*/
-/*    transition: all 0.5s;*/
-/*    right: 60px;*/
-/*    opacity: 0.9;font-family: 'Dancing Script', cursive; */
-    
-/*}*/
-
-/*#dropdown-sm.fixed:hover .dropbtn {*/
-/*	position: relative;*/
-/*    right: 55px;*/
-/*    transition: all 0.5s;*/
-/*    background-color: #F005F5;*/
-/*    opacity: 0.9;*/
-    
-/*}*/
-/*}*/

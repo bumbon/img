@@ -143,10 +143,9 @@ article{
 }
 #img_b {
 	position: absolute;
-	width: 100%;
+	width: 42%;
 	height: auto;
-	max-width: 580px;
-	max-height: 580px;
+	
 	top: 25%;
 	left: 0;
 	right: 0;	
