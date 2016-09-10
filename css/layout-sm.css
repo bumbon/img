@@ -7,10 +7,10 @@ nav {
 	top: 7px;
 	right: 0px;
 	list-style-type: none;
-	text-align: left;
+	text-align: center;
 	width: 100%;
 	font-size: 0.79em;
-    /*border: 2px solid #000;*/
+    
 }
 nav a {
     margin: 3px 3px;
@@ -28,6 +28,7 @@ nav a {
 }
 #search {
 	top: 280px;
+	z-index: 2;
 }
 #title {
     padding-top: 67px;
