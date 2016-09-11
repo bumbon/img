@@ -116,19 +116,76 @@ article{
 }
 #search {
 	position: absolute;
-	width: 278px;
+	width: 25%;
 	height: 20px;
-	top: 65px;
+	top: 125px;
 	right: 10px;
 	padding-top: 10px;
 	text-align: right;
 }
+#search input {
+  /* отключаем бордюры у инпутов */
+  border: none;
+}
+/* стили для поля ввода */
+#search .input {
+  /* растягиваем поле ввода на всю ширину формы */
+  width: 100%;
+
+  /* за счет верхнего (8px) и нижнего (9px) внутренних отступов
+  ** регулируем высоту формы
+  ** внутренний отступ справа (37px) делаем больше левого,
+  ** т.к. там будет размещена кнопка отправки	*/
+  padding: 8px 37px 9px 15px;
+  /* чтобы ширина поля ввода (100%) включала в себя внутренние отступы */
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  /* добавляем внутренние тени */
+  box-shadow: inset 0 0 5px rgba(0,0,0,0.1), inset 0 1px 2px rgba(0,0,0,0.3);
+
+  /* закругляем углы */
+  border-radius: 10px;
+  background: #fef;
+  font: 13px Tahoma, Arial, sans-serif;
+  color: #f5f;
+  outline: none;
+}
+/* меняем оформление поля ввода при фокусе */
+#search .input:focus {
+  box-shadow: inset 0 0 5px rgba(0,0,0,0.2), inset 0 1px 2px rgba(0,0,0,0.4);
+  background: #f8f8f8;
+  color: #fff;
+}
+/* оформляем кнопку отправки */
+#search .submit {
+  /* позиционируем кнопку абсолютно от правого края формы */
+  position: absolute;
+  top: 15px;
+  right: 0px;
+  width: 37px;
+  /* растягиваем кнопку на всю высоту формы */
+  height: 100%;
+  cursor: pointer;
+  background: url(https://lh4.googleusercontent.com/-b-5aBxcxarY/UAfFW9lVyjI/AAAAAAAABUg/gQtEXuPuIds/s13/go.png) 190% no-repeat;
+  /* добавляем прозрачность кнопке отправки */
+  opacity: 0.5;
+}
+/* при наведении курсора меняем прозрачность кнопки отправки */
+#search .submit:hover {
+  opacity: 0.8;
+}
+/* данное свойство необходимо для того, чтобы в браузерах
+** Chrome и Safari можно было стилизовать инпуты */
+input[type="search"] {
+  -webkit-appearance: none;
+}
+
 #title {
 	width: 100%;
 	margin: 0 auto;	
 	padding-top: 70px;
 	padding-bottom: 1%;
-	letter-spacing: 10px;
+	letter-spacing: 15px;
 
 	text-align: center;
 	color: #fff;
@@ -144,8 +201,7 @@ article{
 #img_b {
 	position: absolute;
 	width: 44%;
-	height: auto;
-	
+	height: 75%;
 	top: 25%;
 	left: 0;
 	right: 0;	
@@ -537,3 +593,35 @@ a.knopka:hover {
 a.knopka:active {
 	color: #fef;
 	}
+/*Clouds	*/
+	@keyframes move-clouds-back {
+    from {background-position:0 0;}
+    to {background-position:10000px 0;}
+	}
+	@-webkit-keyframes move-clouds-back {
+    from {background-position:0 0;}
+    to {background-position:10000px 0;}
+	}
+	@-moz-keyframes move-clouds-back {
+    from {background-position:0 0;}
+    to {background-position:10000px 200px;}
+	}	
+#clouds{
+    background:transparent url('../images/clouds.png') repeat-x top center;
+    z-index:3;
+	position: absolute;
+	width: 44%;
+	height: 75%;
+	top: 25%;
+	left: 0;
+	right: 0;	
+	bottom: 0;
+	margin: 0 auto;
+	border-radius: 50%;
+   	opacity: 0.4;
+  -moz-animation:move-clouds-back 200s linear infinite;
+  -ms-animation:move-clouds-back 200s linear infinite;
+  -o-animation:move-clouds-back 200s linear infinite;
+  -webkit-animation:move-clouds-back 200s linear infinite;
+  animation:move-clouds-back 200s linear infinite;
+}

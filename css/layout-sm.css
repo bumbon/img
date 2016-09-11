@@ -22,12 +22,13 @@ nav a {
 #img_b {
 	display:  none;
 }
+
 #img-l {
 	top: 135px;
 
 }
 #search {
-	top: 280px;
+	top: 270px;
 	z-index: 2;
 }
 #title {

@@ -9,7 +9,7 @@ header {
 .img-ab  {
     max-width: 280px;
  }
-#img_b {
+#img_b .clouds {
 	position: absolute;
 	width: 54%;
 	max-width: 380px;
