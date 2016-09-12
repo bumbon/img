@@ -48,7 +48,7 @@
             <br>
             <br>
             <h2>About</h2>
-            <img class="img-ab" src="images/trees/bonsaj-3.jpg" alt="bonsai_tree.jpg">
+            <img class="img-about" src="images/trees/bonsaj-3.jpg" alt="bonsai_tree.jpg">
             <div class="topic">
                 <br>
                 If you want to make a gift for a birthday or to greet, then a good option would be picture embroidered with beads.  The tree or flower woven of beads also will be a wonderful gift.
@@ -271,7 +271,7 @@
             <br>
             <h2>Contacts </h2>
             <div class="contact">
-                <img class="img-c" src="images/map.jpg" width="400" alt="Map of Lviv">
+                <img class="map" src="images/map.jpg" width="400" alt="Map of Lviv">
                 Contact phone: <br>
                 <br>
                 +38 (068) ... <br>
@@ -282,32 +282,30 @@
                 <br>
                 e-mail: handicrafts@gmail.com<br>
                 <br>address: Lviv 
-                
-            
             </div>
             <div class="clearfix"></div>
             <div class="contact">
                 <h3>Fill out the form and our manager will contact you shortly.</h3>
                 <br>
                 <p id="thanks" style="text-align:right"></p>
-                <div class="form">
-                    <form method="POST" action="https://formspree.io/i.shyyka@ukr.net">
+                <div > 
+                    <form method="POST" action="https://formspree.io/i.shyyka@ukr.net" id ="form">
                         <fieldset>
                             <label for="name">Name:</label>
-                            <input type="text" name="name" placeholder="First Name" id="name" required/>
+                            <input class="input" type="text" name="name" placeholder="First Name" id="name" required/>
                             <label for="name">Surname:</label>
-                            <input type="text" name="surname" placeholder="Surname" id="surname" required/>
+                            <input class="input" type="text" name="surname" placeholder="Surname" id="surname" required/>
                             <br>
                             <br>
                             <label for="email">Email:</label>
-                            <input type="email" name="email" placeholder="your_email@..." id="email" required/>
+                            <input class="input" type="email" name="email" placeholder="your_email@..." id="email" required/>
                             <br>
                             <br>
-                            <input type="hidden" name="message">
-                            <textarea rows="3" name="message"></textarea>
+                            <input  type="hidden" name="message">
+                            <textarea class="input-m" rows="3" name="message"></textarea>
                         </fieldset>
                         <br>
-                        <input id="btn-send" type="submit" value="Send"/>
+                        <input id="btn-send" type="submit" class="submit" value="Send"/>
                     </form>
                 </div>
             </div>
@@ -315,7 +313,16 @@
         </section>
         <footer>
             <p>&copy;2016 Handicrafts of beads. All rights reserved.</p>
-            <!--LiveInternet counter--><script type="text/javascript">document.write("<a href='//www.liveinternet.ru/click' target=_blank><img src='//counter.yadro.ru/hit?t44.18;r" + escape(document.referrer) + ((typeof(screen)=="undefined")?"":";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?screen.colorDepth:screen.pixelDepth)) + ";u" + escape(document.URL) + ";" + Math.random() + "' border=0 width=31 height=31 alt='' title='LiveInternet'><\/a>")</script><!--/LiveInternet-->
+<!--LiveInternet counter--><script type="text/javascript">
+document.write("<a href='//www.liveinternet.ru/click' "+
+"target=_blank><img src='//counter.yadro.ru/hit?t44.18;r"+
+escape(top.document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random()+
+"' alt='' title='LiveInternet' "+
+"border='0' width='31' height='31' opacity='0.2'><\/a>")
+//--></script><!--/LiveInternet-->
 
             <br>
         </footer>
