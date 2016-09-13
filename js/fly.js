@@ -49,9 +49,6 @@
             $(document.body).append(spark);
         else
             $($.firefly.settings.on).append(spark);
-         
- 
- 
  
         return spark.css({'position':'absolute',    
                         'width' : pixelSize,
@@ -61,10 +58,7 @@
                         top: $.firefly.offsetTop + $.firefly.random(($.firefly.eleHeight-500)),  //offsets
                         left:  $.firefly.offsetLeft + $.firefly.random(($.firefly.eleWidth-450)) //offsets
                         }).show();
- 
      }
-     
- 
  
 $.firefly.fly = function(sp) {
    
@@ -109,3 +103,5 @@ $.firefly.opacity = function(min)
 // maxPixel: 2 - максимальный размер точек.
 // color: '#f30' - цвет точек.
     
+
+
